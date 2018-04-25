@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  font-family: Montserrat, sans-serif; }
+
+/* NAVIGATION */
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-item {
+  text-align: center; }
+
+.nav-link {
+  font-size: 20px; }
+
+.navbar-brand {
+  font-size: 22px; }
+
+/* HEADER */
+/* MODAL REGISTER */
+.modal {
+  position: fixed; }
+
+.modal-backdrop {
+  position: relative; }
+  .modal-backdrop .show {
+    opacity: 1; }
+
+.btn-default {
+  background-color: #AA66CC !important; }
+
+/*.card{
+    @include background-image();
+
+  &:before {
+    @include linear-gradient();
+  } */
+.card-img-overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 85px;
+  margin: auto;
+  margin-top: 50px; }
+  .card-img-overlay h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto; }
+
+/* RESPONSIVE BANNER */
+@media (max-width: 850px) {
+  .card-img-overlay h1 {
+    font-size: 25px; } }
+@media (max-width: 650px) {
+  .card-img-overlay {
+    height: 220px;
+    margin-top: 33px; }
+    .card-img-overlay h1 {
+      padding-top: 3px;
+      font-size: 20px; } }
+@media (max-width: 480px) {
+  .card-img-overlay {
+    height: 153px;
+    margin-top: 22px; }
+    .card-img-overlay h1 {
+      font-size: 14px;
+      margin-top: -52px; } }
+/* REPRESENT SECTION */
+#representSection {
+  margin-top: 100px; }
+  #representSection #representSectionText {
+    font-weight: bold;
+    text-align: right; }
+  #representSection .mask {
+    width: 54%; }
+
+/* LECTURERS */
+#lecturers {
+  background-color: #AA66CC;
+  padding-top: 35px; }
+  #lecturers h3, #lecturers p {
+    text-align: center; }
+  #lecturers h3 {
+    color: #ffffff; }
+  #lecturers p {
+    color: #ffad33; }
+
+/* JAVA */
+#java {
+  background-color: #aaff00;
+  padding-top: 35px; }
+  #java .list-group .list-group-item {
+    text-align: center;
+    background-color: #aaff00;
+    font-weight: bold; }
+
+/* JAVASCRIPT */
+#javascript {
+  background-color: #f2f2f2;
+  padding-top: 35px; }
+  #javascript .list-group .list-group-item {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-weight: bold; }
+
+/* PHP */
+#php {
+  padding-top: 35px;
+  background-color: #ff6600;
+  color: #ffffff; }
+  #php .list-group .list-group-item {
+    text-align: center;
+    background-color: #ff6600;
+    font-weight: bold;
+    color: #ffffff; }
+
+/* LOGIN */
+#login, #register {
+  padding-top: 35px;
+  margin: auto; }
+
+/* REGISTER */
+
+/*# sourceMappingURL=style.css.map */
