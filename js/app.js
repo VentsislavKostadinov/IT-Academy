@@ -34,17 +34,19 @@ app.controller("homeController", ["$scope", function ($scope) {
 
 app.controller("javaController", ["$scope", function ($scope) {
 
+    $scope.imageJava = "./images/java-icon.png";
 
 }]);
 
 app.controller("front-endController", ["$scope", function ($scope) {
 
+    $scope.imageFrontEnd = "./images/front-end-dev.png";
 
 }]);
 
 app.controller("phpController", ["$scope", function ($scope) {
 
-
+   $scope.phpImage = "./images/php-icon.png";
 }]);
 
 
