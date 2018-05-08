@@ -91,13 +91,15 @@ body {font-family: Montserrat, sans-serif ;}
   margin: auto;
   margin-top: 50px;
 
-  h1 {
+  h1, p {
     color: $white-color;
     font-size: 40px;
    font-weight: bold;
    // padding-top: 27px;
     margin: auto;
   }
+
+
 }
 
 /* RESPONSIVE BANNER */
@@ -146,6 +148,7 @@ body {font-family: Montserrat, sans-serif ;}
 
 #representSection {
 
+
   margin-top: 100px;
 
   #representSectionText {
@@ -153,8 +156,8 @@ body {font-family: Montserrat, sans-serif ;}
     font-weight: bold;
     text-align: right;
   }
-  .mask {width: 54%;}
 
+  .mask {width: 54%;}
 }
 
 
@@ -166,27 +169,72 @@ body {font-family: Montserrat, sans-serif ;}
 
   padding-top: $padding-top-35px;
 
-  h3, p {text-align: center;}
+  h3, p {text-align: center; padding-top: 10px;}
 
   h3 {color: $white-color;}
 
   p {color:  #ffad33;}
 }
 
+
+#eventSection {
+
+  background-color: #3C3E4A;
+  color: $white-color;
+
+
+  article {padding-top: 100px;}
+
+  .btn-secondary {font-size: 18px;}
+
+  .md-form {
+
+    input[type=text] {
+
+      color: $white-color;
+      border-bottom: 1px solid $purple-color;
+
+      &:hover {border-bottom: 1px solid $purple-color;}
+    }
+  }
+
+  #subscribeSection {
+
+    padding-top: 100px;
+  }
+
+}
+
+/* FOOTER */
+
+footer {
+
+  background-color: $black-color;
+  color: $white-color;
+  padding-top: $padding-top-35px;
+
+}
+
 /* JAVA */
+
 
 #java {
 
-  background-color:   #aaff00;
+  background-color:    #e6e6ff;
   padding-top: $padding-top-35px;
+
+  p {
+    font-size: 20px;
+  }
 
   .list-group {
 
     .list-group-item {
 
       text-align: center;
-      background-color:   #aaff00;
+      background-color:    #e6e6ff;
       font-weight: bold;
+      font-size: 20px;
     }
   }
 }
@@ -198,6 +246,10 @@ body {font-family: Montserrat, sans-serif ;}
   background-color:  #f2f2f2;
   padding-top: $padding-top-35px;
 
+  p {
+    font-size: 20px;
+  }
+
   .list-group {
 
     .list-group-item {
@@ -205,6 +257,7 @@ body {font-family: Montserrat, sans-serif ;}
       text-align: center;
       background-color:  #f2f2f2;
       font-weight: bold;
+      font-size: 20px;
     }
   }
 
@@ -215,8 +268,12 @@ body {font-family: Montserrat, sans-serif ;}
 #php {
 
   padding-top: $padding-top-35px;
-  background-color:   #ff6600;
+  background-color:    #ff66ff;
   color: $white-color;
+
+  p {
+    font-size: 20px;
+  }
 
 
   .list-group {
@@ -224,9 +281,10 @@ body {font-family: Montserrat, sans-serif ;}
     .list-group-item {
 
       text-align: center;
-      background-color:  #ff6600;
+      background-color:   #ff66ff;
       font-weight: bold;
       color: $white-color;
+      font-size: 20px;
     }
   }
 }
@@ -239,4 +297,3 @@ body {font-family: Montserrat, sans-serif ;}
   margin: auto;
 }
 
-/* REGISTER */
