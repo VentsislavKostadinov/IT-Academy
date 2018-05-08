@@ -2,7 +2,9 @@
   <!--  <img class="card-img" src="../images/header-bg.png" alt="Card image"> -->
     <img class="card-img" ng-src={{headerImage}} alt="Card image"/>
     <div class="card-img-overlay">
-        <h1 class="text-center">IT Academy Courses</h1>
+        <h1 class="text-center">IT Academy Courses</h1><br>
+        <p class="text-center">The IT Academy program is a global network of approved colleges and universities that provide students access
+            to high quality educational content and certification potential.</p>
     </div>
 </header>
 
@@ -36,7 +38,7 @@
 
             <div class="col-lg-4 col-md-4 col-xs-12 view overlay">
                 <img class="img-fluid" ng-src={{introImg}} alt="intro-img"/>
-                <div class="mask flex-center waves-effect waves-light rgba-red-light"></div>
+             <div class="mask flex-center waves-effect waves-light rgba-red-light"></div>
             </div>
         </div>
     </div>
@@ -47,43 +49,70 @@
     <div class="container-fluid">
         <h1 class="text-center">Meet the Lecturers</h1><br><br>
         <div class="row">
-            <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="col-lg-2 col-md-6 col-sm-6 zoom">
                 <img class="img-fluid" ng-src={{lecturer1Image}} alt="lecturer-1">
                 <h3>Mark Sharp</h3>
                 <p>Front end Developer</p>
             </div>
 
-        <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="col-lg-2 col-md-6 col-sm-6 zoom">
             <img class="img-fluid" ng-src={{lecturer2Image}} alt="lecturer-2">
             <h3>Oliver Hoy</h3>
             <p>Back end Developer</p>
         </div>
 
-        <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="col-lg-2 col-md-6 col-sm-6 zoom">
             <img class="img-fluid" ng-src={{lecturer3Image}} alt="lecturer-3">
             <h3>Monica Alvarez</h3>
             <p>Graphical Designer</p>
         </div>
 
-        <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="col-lg-2 col-md-6 col-sm-6 zoom">
             <img class="img-fluid" ng-src={{lecturer4Image}} alt="lecturer-4">
             <h3>Sara Graham</h3>
             <p>QA Lead</p>
         </div>
 
-        <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="col-lg-2 col-md-6 col-sm-6 zoom">
             <img class="img-fluid" ng-src={{lecturer5Image}} alt="lecturer-5">
             <h3>John Johnson</h3>
             <p>NET Developer</p>
         </div>
 
-        <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="col-lg-2 col-md-6 col-sm-6 zoom">
             <img class="img-fluid" ng-src={{lecturer6Image}} alt="lecturer-6">
             <h3>Richard Grant</h3>
             <p>C++ Developer</p>
         </div>
         </div>
             </div>
-
-
 </section>
+
+<section id="eventSection">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <article>
+                    <h2 class="text-center">Special Events</h2>
+                    <p class="text-center">Apart from the CodeMesh conference, we organize weekly coding meetings and
+                        a lot of socials! If you are interested, please leave your email down below to be
+                        subscribed to out mailing list!
+                    </p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="subscribeSection">
+        <div class="row">
+            <div class="md-form form-lg">
+                <input type="text" class="form-control form-control-lg" placeholder="Enter your email">
+            </div>
+            <button type="button" class="btn btn-secondary col-md-3 ml-auto">Subscribe</button>
+        </div>
+    </div>
+</section>
+
+
+
