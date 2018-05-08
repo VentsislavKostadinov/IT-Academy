@@ -43,7 +43,7 @@ body {
   padding: 85px;
   margin: auto;
   margin-top: 50px; }
-  .card-img-overlay h1 {
+  .card-img-overlay h1, .card-img-overlay p {
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
@@ -81,46 +81,75 @@ body {
   background-color: #AA66CC;
   padding-top: 35px; }
   #lecturers h3, #lecturers p {
-    text-align: center; }
+    text-align: center;
+    padding-top: 10px; }
   #lecturers h3 {
     color: #ffffff; }
   #lecturers p {
     color: #ffad33; }
 
+#eventSection {
+  background-color: #3C3E4A;
+  color: #ffffff; }
+  #eventSection article {
+    padding-top: 100px; }
+  #eventSection .btn-secondary {
+    font-size: 18px; }
+  #eventSection .md-form input[type=text] {
+    color: #ffffff;
+    border-bottom: 1px solid #AA66CC; }
+    #eventSection .md-form input[type=text]:hover {
+      border-bottom: 1px solid #AA66CC; }
+  #eventSection #subscribeSection {
+    padding-top: 100px; }
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 35px; }
+
 /* JAVA */
 #java {
-  background-color: #aaff00;
+  background-color: #e6e6ff;
   padding-top: 35px; }
+  #java p {
+    font-size: 20px; }
   #java .list-group .list-group-item {
     text-align: center;
-    background-color: #aaff00;
-    font-weight: bold; }
+    background-color: #e6e6ff;
+    font-weight: bold;
+    font-size: 20px; }
 
 /* JAVASCRIPT */
 #javascript {
   background-color: #f2f2f2;
   padding-top: 35px; }
+  #javascript p {
+    font-size: 20px; }
   #javascript .list-group .list-group-item {
     text-align: center;
     background-color: #f2f2f2;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 20px; }
 
 /* PHP */
 #php {
   padding-top: 35px;
-  background-color: #ff6600;
+  background-color: #ff66ff;
   color: #ffffff; }
+  #php p {
+    font-size: 20px; }
   #php .list-group .list-group-item {
     text-align: center;
-    background-color: #ff6600;
+    background-color: #ff66ff;
     font-weight: bold;
-    color: #ffffff; }
+    color: #ffffff;
+    font-size: 20px; }
 
 /* LOGIN */
 #login, #register {
   padding-top: 35px;
   margin: auto; }
-
-/* REGISTER */
 
 /*# sourceMappingURL=style.css.map */
