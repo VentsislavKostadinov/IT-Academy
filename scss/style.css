@@ -102,7 +102,9 @@ body {
 
 #eventSection {
   background-color: #3C3E4A;
-  color: #ffffff; }
+  color: #ffffff;
+padding-bottom: 100px;
+}
   #eventSection article {
     padding-top: 100px; }
   #eventSection .btn-secondary {
